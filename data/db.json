@@ -1,0 +1,21 @@
+{
+  "categories": [{
+    "id": 1,
+    "name": "tools",
+    "display_name": "Tools",
+    "description": "This is a test"
+  }],
+  "products": [{
+    "id": 1,
+    "category": 1,
+    "name": "screwdriver",
+    "display_name": "Screwdriver",
+    "description": "This is a test"
+  }, {
+    "id": 2,
+    "category": 1,
+    "name": "hammer",
+    "display_name": "Hammer",
+    "description": "This is a test"
+  }]
+}
