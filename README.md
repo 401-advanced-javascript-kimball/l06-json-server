@@ -1,5 +1,16 @@
 # l06-json-server
 
+### Author: Jonathan Kimball
+
+### Links and Resources
+
+* [submission PR](https://github.com/401-advanced-javascript-kimball/l06-simple-api/pull/2/)
+
+#### Documentation
+
+* Could not do this correctly!  Swagger hub is failing to import more than one route at a time!
+  * [swagger hub page](https://app.swaggerhub.com/apis/JAKimball/default-title/0.1)
+
 ## Requirements
 
 ### Build a working JSON Server
