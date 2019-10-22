@@ -1,21 +1,51 @@
 {
-  "categories": [{
-    "id": 1,
-    "name": "tools",
-    "display_name": "Tools",
-    "description": "This is a test"
-  }],
-  "products": [{
-    "id": 1,
-    "category": 1,
-    "name": "screwdriver",
-    "display_name": "Screwdriver",
-    "description": "This is a test"
-  }, {
-    "id": 2,
-    "category": 1,
-    "name": "hammer",
-    "display_name": "Hammer",
-    "description": "This is a test"
-  }]
+  "categories": [
+    {
+      "id": 3,
+      "name": "appliances",
+      "display_name": "Appliances",
+      "description": "Just testing"
+    },
+    {
+      "name": "power tools",
+      "display_name": "Power Tools",
+      "description": "Just testing",
+      "id": 4
+    },
+    {
+      "name": "lumber",
+      "display_name": "Lumber",
+      "description": "Pine wood",
+      "id": 5
+    },
+    {
+      "name": "tools",
+      "display_name": "Tools",
+      "description": "Hand tools",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "tools",
+      "name": "screwdriver",
+      "display_name": "Screwdriver",
+      "description": "This is a test"
+    },
+    {
+      "id": 2,
+      "category": "tools",
+      "name": "hammer",
+      "display_name": "Hammer",
+      "description": "This is a test"
+    },
+    {
+      "category": "food",
+      "name": "banana",
+      "display_name": "Banana",
+      "description": "This is a test",
+      "id": 3
+    }
+  ]
 }

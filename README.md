@@ -1,37 +1,65 @@
-## Welcome to GitHub Pages
+# l06-json-server
 
-You can use the [editor on GitHub](https://github.com/401-advanced-javascript-kimball/l06-json-server/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Author: Jonathan Kimball
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Links and Resources
 
-### Markdown
+* [submission PR](https://github.com/401-advanced-javascript-kimball/l06-simple-api/pull/2/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Documentation
 
-```markdown
-Syntax highlighted code block
+* Could not do this correctly!  Swagger hub is failing to import more than one route at a time!
+  * [swagger hub page](https://app.swaggerhub.com/apis/JAKimball/default-title/0.1)
 
-# Header 1
-## Header 2
-### Header 3
+## Requirements
 
-- Bulleted
-- List
+### Build a working JSON Server
 
-1. Numbered
-2. List
+* [x] Implement an API server suitable for a storefront, using json-server
+  * [x] Install `json-server` globally
+  * [x] Create a new repository called "simple-api"
+  * [x] Create a folder called `data` with a `db.json` file
+  * [x] Start json-server from within the `simple-api` folder and "watch" your database file
+    * [x] `json-server --watch=./data/db.json`
+  * [x] Data models should contain the following fields:
+    * [x] `categories`
+      * [x] `_id`, `name`, `display_name`, `description`
+    * [x] `products`
+      * [x] `_id`, `category`, `name`, `display_name`, `description`
+  * [x] Your api will (should) respond to the following endpoints:
+    * [x] `/categories`  
+      * [x] GET
+      * [x] POST
+    * [x] `/categories/:id/`
+      * [x] PUT
+      * [x] DELETE
+    * [x] `/products`
+      * [x] GET
+      * [x] POST
+    * [x] `/products/:id/`
+      * [x] PUT
+      * [x] DELETE
+  * [x] Use `httpie` (command line) or Postman to POST some categories and products into your API so that you have some data in there. 
+  * [x] Confirm that GET, PUT, and DELETE also work
 
-**Bold** and _Italic_ and `Code` text
+* [x] Connect a web server
+  * [x] Open this [React Application](https://codesandbox.io/s/w638oyk7o8) and "Fork" it
+  * [ ] Open the .env file and enter the URL to your API Server (if it's not running on http://localhost:3000)
+  * [x] This server is configured to use the routes noted in the first lab requirement
+  * [x] If your lab is working, this app will show your API Data!
 
-[Link](url) and ![Image](src)
-```
+* [x] Swagger Documentation
+  * [x] In your API, Create a folder called `docs`
+  * [x] Go to swagger.io and use the Inspector application to test your api
+  * [x] Write and publish swagger documentation with Swagger Inspector
+    * [x] It will publish it to "Swagger Hub"
+    * [x] Convert the YAML to JSON and then copy and paste swagger.json from the editor and add to your server project.
+    * [x] For submission, this file needs to be in your repository
+      * **Swagger does not seem to be currently operating correctly when selecting multiple routes to document.  Rather than try to combine the resulting files, I've just included all routes in individual files in the docs folder.**
+    * [ ] Additionally, add the URL to the swagger hub page where you build the docs to your README.
+      * Could not do this correctly!  Swagger hub is failing to import more than one route at a time!
+      [swagger hub page](https://app.swaggerhub.com/apis/JAKimball/default-title/0.1)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Testing
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/401-advanced-javascript-kimball/l06-json-server/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**No automated testing is required for this assignment**
