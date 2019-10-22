@@ -1,12 +1,6 @@
 {
   "categories": [
     {
-      "id": 2,
-      "name": "food",
-      "display_name": "Food",
-      "description": "This is a test"
-    },
-    {
       "id": 3,
       "name": "appliances",
       "display_name": "Appliances",
@@ -23,6 +17,12 @@
       "display_name": "Lumber",
       "description": "Pine wood",
       "id": 5
+    },
+    {
+      "name": "tools",
+      "display_name": "Tools",
+      "description": "Hand tools",
+      "id": 6
     }
   ],
   "products": [
@@ -39,6 +39,13 @@
       "name": "hammer",
       "display_name": "Hammer",
       "description": "This is a test"
+    },
+    {
+      "category": "food",
+      "name": "banana",
+      "display_name": "Banana",
+      "description": "This is a test",
+      "id": 3
     }
   ]
 }
