@@ -15,7 +15,7 @@
 
 ### Build a working JSON Server
 
-* [ ] Implement an API server suitable for a storefront, using json-server
+* [x] Implement an API server suitable for a storefront, using json-server
   * [x] Install `json-server` globally
   * [x] Create a new repository called "simple-api"
   * [x] Create a folder called `data` with a `db.json` file
